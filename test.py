@@ -1,5 +1,4 @@
 import sys
-print('Total arguments:', len(sys.argv), 'arguments.')
-print('Argument Lists:', str(sys.argv))
-for i in range(len(sys.argv)):
-    print('Argument [{}] is {} '.format(i, sys.argv[i]))
+print('Jumlah arguments:', len(sys.argv), 'arguments.')
+print('Argument List:', str(sys.argv))
+print(sys.argv[1])
