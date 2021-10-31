@@ -5,3 +5,5 @@ print(apparel, color, size)
 data = ('pants', 'jeans', '32')  # From Tuple
 apparel, material, size = data
 print(apparel, material, size)
+
+print(str(10+6))
